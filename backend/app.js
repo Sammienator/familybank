@@ -14,7 +14,7 @@ mongoose
     "mongodb+srv://sammienator:sammienatorpassword@cluster0.acw3bcd.mongodb.net/?retryWrites=true&w=majority"
   )
   .then(() => console.log("Connected To Database"))
-  .then(() => {
+  .then(() => {gg
     app.listen(5000);
   })
   .catch((err) => console.log(err));
