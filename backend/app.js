@@ -3,6 +3,7 @@ const mongoose = require("mongoose");
 const router = require("./routes/event-routes");
 const cors = require("cors");
 const app = express();
+const PORT = process.env.PORT || 5000;
 
 // Middlewares
 app.use(express.json());
@@ -15,6 +16,8 @@ mongoose
   )
   .then(() => console.log("Connected To Database"))
   .then(() => {gg
-    app.listen(5000);
+    app.listen(PORT, function(){
+      console.log('server is omanyala');
+    });
   })
   .catch((err) => console.log(err));
