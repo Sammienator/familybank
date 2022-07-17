@@ -1,4 +1,5 @@
 const PORT = process.env.PORT || 3000;
+const host = '0.0.0.0';
 
 const express = require("express");
 const mongoose = require("mongoose");
@@ -23,8 +24,8 @@ mongoose
   .then(() => console.log("Connected To Database"))
   .then(() => {
 
-    app.listen(PORT, function() {
-      console.log("server is omanyala");
-    });
+    app.listen(process.env.PORT || 3000, function(){
+      console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+    })
   })
   .catch((err) => console.log(err));
