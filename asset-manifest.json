@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Sammienator/familybank.git/static/css/main.73917dd0.css",
-    "main.js": "/Sammienator/familybank.git/static/js/main.b1628b5a.js",
-    "index.html": "/Sammienator/familybank.git/index.html",
-    "main.73917dd0.css.map": "/Sammienator/familybank.git/static/css/main.73917dd0.css.map",
-    "main.b1628b5a.js.map": "/Sammienator/familybank.git/static/js/main.b1628b5a.js.map"
+    "main.css": "/Sammienator/bank.git/static/css/main.73917dd0.css",
+    "main.js": "/Sammienator/bank.git/static/js/main.b1628b5a.js",
+    "index.html": "/Sammienator/bank.git/index.html",
+    "main.73917dd0.css.map": "/Sammienator/bank.git/static/css/main.73917dd0.css.map",
+    "main.b1628b5a.js.map": "/Sammienator/bank.git/static/js/main.b1628b5a.js.map"
   },
   "entrypoints": [
     "static/css/main.73917dd0.css",
